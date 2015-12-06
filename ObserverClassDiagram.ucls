@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignal" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignal.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="587" y="268"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalRedState" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalRedState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="622"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalButtonObserver" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalButtonObserver.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="268"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalGreenState" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalGreenState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalEvent" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalEvent.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="915" y="34"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="6" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalContext" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalContext.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="153" y="471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="7" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalStateName" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalStateName.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="168" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="8" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalButtonPresser" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalButtonPresser.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.Main" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalObserver" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalObserver.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="587" y="98"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalState" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="587" y="471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalConsoleDisplay" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalConsoleDisplay.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="587" y="-29"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="fr.iutvalence.info.dut.m3105.pattern.observer.TrafficSignalOrangeState" 
+    project="TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version" 
+    file="/TrafficSignal-Java-Design-Pattern-Behavioral-Complete-Version/src/fr/iutvalence/info/dut/m3105/pattern/observer/TrafficSignalOrangeState.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="980" y="471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="16">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="17" name="name">        
+        <position height="19" width="39" x="280" y="559"/>      
+      </attribute>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="20">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="21">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="22">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="23" name="context"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="26">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="28">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="29" name="state"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="32" name="observers"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="35">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="36" name="observers"/>      
+      <multiplicity id="37" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="40">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
